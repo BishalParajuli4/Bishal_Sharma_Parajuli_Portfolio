@@ -6,7 +6,15 @@ import {
   Link,
   useLocation,
 } from "react-router-dom";
-import { Moon, Sun, Mail, Github, Linkedin, Code } from "lucide-react";
+import {
+  Moon,
+  Sun,
+  Mail,
+  Github,
+  Linkedin,
+  Code,
+  Download,
+} from "lucide-react";
 import { projects, skills, aboutMe, blogPosts } from "./data";
 import BlogPost from "./components/BlogPost";
 
@@ -130,6 +138,24 @@ function App() {
               </p>
             </div>
           ))}
+        </div>
+        <div className="mt-8 text-center">
+          <a
+            href="/Bishal_Sharma_Parajuli_Full-stack_Developer CV.pdf"
+            download="Bishal_Sharma_Parajuli_CV.pdf"
+            className="group relative inline-flex items-center gap-2 px-5 py-3 
+                     bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400
+                     text-white font-semibold rounded-lg overflow-hidden shadow-md
+                     transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl"
+          >
+            <span
+              className="absolute inset-0 bg-blue-400 opacity-0 group-hover:opacity-20 
+                       blur-xl transition-opacity duration-500"
+            ></span>
+
+            <Download className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300 " />
+            <span className="relative">Download CV</span>
+          </a>
         </div>
       </div>
     </section>
@@ -323,7 +349,7 @@ function App() {
             <span>GitHub</span>
           </a>
           <a
-            href="www.linkedin.com/in/bishal-sharma-parajuli"
+            href="https://www.linkedin.com/in/bishal-sharma-parajuli"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"

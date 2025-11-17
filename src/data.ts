@@ -17,21 +17,21 @@ export const projects: Project[] = [
       "SQL",
     ],
     link: "https://vutungtung-rental.vercel.app/",
-    image: "/public/vutungtung.jpeg",
+    image: "/vutungtung.jpeg",
   },
   {
     title: "E-commerce Platform",
     description:
       "Full-featured e-commerce platform with product listings, shopping cart, and secure checkout",
     technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
-    image: "/public/EcommerceSIte.png",
+    image: "/EcommerceSIte.png",
   },
   {
     title: "Clone Website",
     description:
       "Clone of a Skill Prompt Pvt Ltd. website with responsive design and interactive features",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
-    image: "/public/SkillPrompt.png",
+    image: "/SkillPrompt.png",
   },
   {
     title: "Online Course Management System",
@@ -50,8 +50,7 @@ export const projects: Project[] = [
       "GitHub",
       "Playwright",
     ],
-    link: "https://github.com/BishalParajuli4/Bishal_Sharma_Parajuli_Portfolio",
-    image: "/public/image.png",
+    image: "/image.png",
   },
 ];
 
@@ -63,9 +62,14 @@ export const skills: Skill[] = [
       "CSS3",
       "JavaScript",
       "React",
+      "Express",
+      "Playwright",
       "Node.js",
       "TypeScript",
       "Tailwind CSS",
+      "Next.js",
+      "Python",
+      "MySQL",
     ],
   },
   {
@@ -74,13 +78,29 @@ export const skills: Skill[] = [
       "Adobe Photoshop",
       "Adobe Illustrator",
       "Figma",
+      "Canva",
+      "GIMP",
+      "Inkscape",
       "UI/UX Design",
       "Logo Design",
+      "Photopea",
     ],
   },
   {
     category: "Tools",
-    items: ["Git", "VS Code", "MongoDB", "PostgreSQL", "Docker", "AWS"],
+    items: [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Prisma",
+      "MongoDB",
+      " MySQL Workbench",
+      "PostgreSQL",
+      "Docker",
+      "AWS",
+      "Vercel",
+      "Postman",
+    ],
   },
 ];
 
@@ -189,13 +209,13 @@ Learn how to apply TypeScript in real projects...`,
 
 export const aboutMe = {
   story:
-    "I'm a passionate BCA student and web developer with over 2 years of experience in creating beautiful, functional web applications and designing compelling brand identities. My journey began with simple HTML websites and has evolved into building complex full-stack applications.",
+    "I'm a passionate BCA student and web developer with over 2 years of experience in creating beautiful, functional web applications and designing compelling brand identities. My journey began with simple HTML websites, designing simple graphical elements and has evolved into building complex full-stack applications.",
   experience: [
     {
       period: "2022 - Present",
-      role: "Freelance Full-Stack Developer & Designer",
+      role: "Freelance Full-Stack Developer & Graphics Designer",
       description:
-        "Creating custom websites and brand identities for clients worldwide",
+        "Creating custom web applications and brand identities for clients worldwide",
     },
     {
       period: "2024 - 2025",
