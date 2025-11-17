@@ -141,7 +141,7 @@ function App() {
         </div>
         <div className="mt-8 text-center">
           <a
-            href="/Bishal_Sharma_Parajuli_Full-stack_Developer CV.pdf"
+            href="/Bishal-Sharma-Parajuli_Full-stack_Developer.pdf"
             download="Bishal_Sharma_Parajuli_CV.pdf"
             className="group relative inline-flex items-center gap-2 px-5 py-3 
                      bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400
