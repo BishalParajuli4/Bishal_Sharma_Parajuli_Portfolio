@@ -2,30 +2,56 @@ import { Project, Skill, BlogPost } from "./types";
 
 export const projects: Project[] = [
   {
+    title: "Vutungtung Rental",
+    description:
+      "Full-stack rental solution with modern UI and secure payment integration using esewa with admin dashboard for managing listings and bookings",
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Esewa",
+      "Tailwind CSS",
+      "Express",
+      "JWT",
+      "Prisma",
+      "SQL",
+    ],
+    link: "https://vutungtung-rental.vercel.app/",
+    image: "/public/vutungtung.jpeg",
+  },
+  {
     title: "E-commerce Platform",
     description:
-      "Full-stack e-commerce solution with modern UI and secure payment integration",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    link: "https://magnis-store-co.vercel.app/",
-    image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=400&fit=crop",
+      "Full-featured e-commerce platform with product listings, shopping cart, and secure checkout",
+    technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+    image: "/public/EcommerceSIte.png",
   },
   {
-    title: "Brand Identity Design",
+    title: "Clone Website",
     description:
-      "Complete brand identity package including logo, business cards, and marketing materials",
-    technologies: ["Adobe Illustrator", "Photoshop", "Figma"],
-    image:
-      "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=400&fit=crop",
-  },
-  {
-    title: "Portfolio Website",
-    description:
-      "Personal portfolio website with VS Code theme and terminal interface",
+      "Clone of a Skill Prompt Pvt Ltd. website with responsive design and interactive features",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
-    link: "https://github.com/Pyarjan/portfolio",
-    image:
-      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&h=400&fit=crop",
+    image: "/public/SkillPrompt.png",
+  },
+  {
+    title: "Online Course Management System",
+    description:
+      "-- Ongoing Project -- A platform for managing online courses, student enrollments, and progress tracking",
+    technologies: [
+      "React",
+      "Node.js",
+      "Prisma",
+      "Express",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "JWT",
+      "TypeScript",
+      "Vercel",
+      "GitHub",
+      "Playwright",
+    ],
+    link: "https://github.com/BishalParajuli4/Bishal_Sharma_Parajuli_Portfolio",
+    image: "/public/image.png",
   },
 ];
 
@@ -157,9 +183,8 @@ Learn how to apply TypeScript in real projects...`,
     tags: ["CSS", "Sass", "Less", "Web Development"],
     /* image:
       "images/Image-1-3.webp", */
-      image:
-      "https://miro.medium.com/v2/resize:fit:1400/0*BWv0pzfidTH3AW-x",
-  }
+    image: "https://miro.medium.com/v2/resize:fit:1400/0*BWv0pzfidTH3AW-x",
+  },
 ];
 
 export const aboutMe = {
@@ -168,13 +193,13 @@ export const aboutMe = {
   experience: [
     {
       period: "2022 - Present",
-      role: "Freelance Web Developer & Designer",
+      role: "Freelance Full-Stack Developer & Designer",
       description:
         "Creating custom websites and brand identities for clients worldwide",
     },
     {
-      period: "2021 - 2022",
-      role: "Junior Web Developer",
+      period: "2024 - 2025",
+      role: "Junior Full-Stack Developer",
       description:
         "Worked on various web development projects using modern technologies",
     },
